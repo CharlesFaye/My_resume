@@ -1,0 +1,347 @@
+@font-face
+{
+	font-family: 'BallparkWeiner';
+	           src: url('polices/ballpark.eot');
+	           src: url('polices/ballpark.eot?#iefix')
+	                format('embedded_opentype'),
+	                url('polices/ballpark.wotf')
+	                format('wotf'),
+	                url('polices/ballpark.ttf')
+	                format('truetype'),
+	                url('polices/ballpark.svg#BallparkWeiner')
+	                format('svg');
+
+}
+@font-face
+{
+	font-family: 'Dayrom';
+	           src: url('polices/dayrom.eot');
+	           src: url('polices/dayrom.eot?#iefix')
+	                format('embedded_opentype'),
+	                url('polices/dayrom.wotf')
+	                format('wotf'),
+	                url('polices/dayrom.ttf')
+	                format('truetype'),
+	                url('polices/dayrom.svg#Dayrom')
+	                format('svg');
+
+}
+
+#bloc_page
+{
+	width: 900px;
+	margin: auto;
+}
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	background: url('images/separateur.png') repeat-x bottom;
+}
+#titre_principal h1
+{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.4em;
+    font-family: 'Dayrom', serif;
+    border-bottom: 1px solid rgba(100, 10, 2, 0.5);
+    border-right: 1px solid rgba(100, 10, 2, 0.5);
+    box-shadow: 2px 2px 2px rgba(100, 10, 2, 0.5);
+    padding-right: 5px;
+   
+}
+nav ul 
+{
+	display: flex;
+	list-style-type: none;
+}
+nav li 
+{
+	margin-right: 10px;
+}
+nav a 
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Dayrom', serif;
+	font-size: 1.3em;
+	color: maroon;
+}
+nav a:hover 
+{
+	text-shadow: 2px 4px 4px black;
+}
+#photo
+{
+	background: url('images/pp3.jpg') no-repeat scroll center;
+	position: relative;
+    width: 900px;
+    height: 500px;
+    margin-top: 50px;
+   
+}
+#texte 
+{
+   position: absolute;
+   bottom: 0;
+   left: 80px;
+   right: 80px;
+   top: 350px;
+   overflow: scroll;
+   color: rgb(165, 5, 5);
+   background-color: rgba(24, 24, 24, 0.8);
+}
+section 
+{
+	background-color: white;
+}
+article h1  
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'Dayrom', serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-bottom: 1px ridge rgba(40, 10, 2, 0.5);
+	box-shadow: 0px 6px 10px whitesmoke;
+}
+article p
+{
+	font-family: 'Dayrom', serif;
+	text-align: justify;
+	font-size: 1em;
+
+}
+#Para2
+{
+	font-style: normal;
+	text-align: justify;
+	font-size: 1.1em;
+	margin: 50px 50p 50px 50px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px black;
+	padding: 10px 10px 10px 10px;
+}
+.change
+{
+	text-decoration: underline;
+	font-style: oblique;
+}
+#Expériences_Professionnelles
+{
+	margin: 50px 0px 0px 0px;
+}
+#Skills 
+{
+	margin: 50px 0px 0px 100px;
+}
+#Skills ~ h2
+{
+	margin: 50px 0px 0px 150px;
+}
+#Skills ~ ul 
+{
+	margin: 50px 0px 0px 200px;
+}
+#Formation 
+{
+	margin: 50px 0px 0px 0px;
+}
+#Formation ~ ul 
+{
+	margin: 30px 0px 50px 50px;
+}
+aside 
+{
+	background: url('images/charles.jpg') repeat top scroll;
+	box-shadow: 4px 0px 4px black;
+}
+aside h1
+{
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: left;
+	font-weight: normal;
+	font-size: 1.5em;
+	padding-left: 10px;
+	color: darkgreen;
+	font-family: 'Dayrom', serif;
+	margin: 0px 0px 0px 10px;
+}
+aside h2
+{
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: left;
+	font-weight: normal;
+	font-size: 1.3em;
+	color: darkblue;
+	padding-left: 25px;
+	font-family: 'Dayrom', serif;
+	margin: 10px 0px 0px 25px;
+}
+aside ul 
+{
+	list-style-type: square;
+	font-size: 1.1em;
+	font-family: 'Dayrom', 'BallparkWeiner', Times New Roman,serif;
+    margin-left: 50px;
+}
+ video 
+{
+	margin: 0px 0px 25px 100px;
+}
+.presentation
+{
+	font-size: 1.1em;
+	font-family: 'Dayrom', serif;
+	margin: 0px 0px 0px 100px;
+	text-decoration: underline;
+	color: navy;
+
+}
+.bleu 
+{
+	color: navy;
+}
+.résumé
+{
+	font-family: 'Dayrom', serif;
+	font-size: 1.1em;
+}
+footer 
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: whitesmoke ;
+}
+#contact
+{
+	width: 40%;
+}
+#réseau 
+{
+	width: 25%;
+}
+#link
+{
+	width: 35%;
+}
+footer h1 
+{
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 1.6em;
+	font-family: 'Dayrom', serif;
+}
+#réseau img   
+{
+	box-shadow: 4px 4px 4px black;
+}
+#link ul  
+{
+    list-style-type: none;
+}
+#link li 
+{
+	margin-top: 5px;
+}
+#link a 
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'Dayrom', serif;
+	color: darkred;
+
+}
+#contact 
+{
+	font-family: 'Dayrom', serif;
+	font-size: 1.1em;
+	margin-left: 10px;
+}
+#contact a 
+{
+	text-decoration: none;
+	color: brown;
+}
+@media all and (max-width: 800px)
+{
+	#bloc_page
+	{
+		width: auto;
+	}
+	nav ul 
+	{
+		display: flex;
+		flex-direction: column;
+	}
+    #photo
+    {
+	background: url('images/pp3.jpg') no-repeat scroll center;
+	position: relative;
+    width: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    }
+    #texte 
+    {
+     position: absolute;
+     bottom: 0;
+     left: 10px;
+     right: 0;
+     top: 350px;
+     overflow: scroll;
+     color: rgb(165, 5, 5);
+     background-color: rgba(24, 24, 24, 0.8);
+    }
+    #Para2
+    {
+    	font-size: 1.1em;
+    }
+    article p 
+    {
+    	font-size: 1em;
+    }
+    aside ul 
+    {
+    	font-size: 1.1em;
+    }
+    .presentation
+    {
+    	font-size: 1.1em;
+    }
+    video[width]
+    {
+    	width: 400px;
+    }
+	footer 
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	#contact
+	{
+		width: auto;
+		text-align: center;
+	}
+	#réseau
+	{
+        width: auto;
+	}
+	#link 
+	{
+		width: auto;
+		text-align: center;
+	}
+	#link h1 
+	{
+		text-align: right;
+	}
+
+}
