@@ -1,0 +1,266 @@
+@font-face
+{
+	font-family: 'BallparkWeiner';
+	           src: url('polices/ballpark.eot');
+	           src: url('polices/ballpark.eot?#iefix')
+	           format('embedded_opentype'),
+	                url('polices/ballpark.wotf')
+	                format('wotf'),
+	                url('polices/ballpark.ttf')
+	                format('truetype'),
+	                url('polices/ballpark.svg#BallparkWeiner')
+	                format('svg');
+
+}
+@font-face
+{
+	font-family: 'Dayrom';
+	           src: url('polices/dayrom.eot');
+	           src: url('polices/dayrom.eot?#iefix')
+	           format('embedded_opentype'),
+	                url('polices/dayrom.wotf')
+	                format('wotf'),
+	                url('polices/dayrom.ttf')
+	                format('truetype'),
+	                url('polices/dayrom.svg#Dayrom')
+	                format('svg');
+
+}
+#bloc_page
+{
+	width: 900px;
+	margin: auto;
+}
+body
+{
+	background-color: ghostwhite;
+	text-align: justify;
+}
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	background: url('images/separateur.png') repeat-x bottom;
+}
+nav ul 
+{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+nav li 
+{
+	margin-right: 10px;
+}
+nav a 
+{
+	text-decoration: none;
+	color: darkred;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	font-family: 'Dayrom', serif;
+}
+nav a:hover
+{
+	border-bottom: 3px groove darkred;
+}
+#titre_principal
+{
+	display: flex;
+	flex-direction: column;
+}
+#photo_profil
+{
+	display: flex;
+	flex-direction: column;
+}
+header h1
+{
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: normal;
+	font-family: 'BallparkWeiner', serif;
+}
+section
+{
+	background: url('images/separateur.png') repeat-x top;
+	padding: 20px 0px 0px 20px;
+	text-align: justify;
+}
+section h1
+{
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 1.5em;
+	padding-left: 10px;
+	color: green;
+	font-family: 'Dayrom', serif;
+}
+section h2
+{
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 1.3em;
+	color: darkblue;
+	padding-left: 25px;
+	font-family: 'Dayrom', serif;
+}
+section ul 
+{
+	list-style-type: square;
+	font-size: 1.1em;
+	font-family: 'Dayrom', 'BallparkWeiner', Times New Roman,serif;
+}
+footer
+{
+	background: url('images/separateur.png') repeat-x top;
+	background-color: whitesmoke;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	font-family: 'Dayrom', serif;
+}
+footer h1 
+{
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 1.6em;
+}
+#contact
+{
+	width: 40%;
+	padding-left: 10px;
+}
+#contact p:first-child
+{
+	font-size: 1.2em;
+}
+#photo_réseau
+{
+	width: 25%;
+}
+#lien
+{
+	width: 35%;
+}
+#photo_réseau img 
+{
+   box-shadow: 4px 4px 4px black;
+}
+#contact a 
+{
+   font-size: 1.1em;
+   text-decoration: none;
+   color:brown;
+}
+#contact a:hover
+{
+	text-shadow: 4px 4px 4px indigo;
+}
+#lien a 
+{
+	text-decoration: none;
+	font-size: 1.2em;	
+}
+#lien a:hover
+{
+	color: red;
+}
+#lien ul 
+{
+	list-style-type: none;
+}
+.bleu
+{
+   color: blue;
+}
+@media all and (max-width: 1024px)
+{
+	#bloc_page
+	{
+		width: auto;
+	}
+	nav
+	{
+		width: auto;
+		text-align: left;
+	}
+	nav ul 
+	{
+		flex-direction: column;
+	}
+	nav li 
+	{
+		padding: 5px 25px 0px 0px;
+		
+	}
+	nav a 
+	{
+		font-size: 1em;
+	}
+	nav a:hover
+	{
+		border-bottom: 0;
+	}
+	section
+	{
+		width: auto;
+		background: url('separateur.png') no-repeat;
+	}
+	#balise
+	{
+		display: none;
+	}
+	footer 
+	{
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		margin-top: 25px;
+		padding: 25px 0px 0px 0px;
+	}
+	#contact
+	{
+		width: auto;
+		text-align: center;
+		padding-top: 25px;
+	}
+	#photo_réseau
+	{
+		width: auto;
+		text-align: center;
+		padding-top: 25px;
+	}
+	#lien
+	{
+		width: auto;
+		text-align: center;
+		font-size: 1em;
+		padding-top: 25px;
+	}
+	#photo_réseau img 
+	{
+		box-shadow: 0px 0px 0px ;
+		margin-right: 0;
+		border-radius: 0px;
+	}
+	
+	
+	
+}
+@media all and (max-width: 700px)
+{
+	section h1
+	{
+		font-size: 1.2em;
+	}
+	section h2
+	{
+		font-size: 1.1em;
+	}
+	footer h1
+	{
+		font-size: 1.2em;
+	}
+}
